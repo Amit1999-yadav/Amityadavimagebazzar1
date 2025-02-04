@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        center a{
+            text-decoration: none;
+        }
+    </style>
+    <style>
+        .box {
+            width: 600px;
+            height: 400px;
+            position: relative;
+            overflow: hidden;
+            border: 2px solid black;
+        }
+        
+        .box:hover .overlay{
+            background-color: rgba(0, 0, 0, 0.3);
+        }
+    
+        .overlay {
+            position: absolute;
+            width: inherit;
+            height: inherit;
+            z-index: 1;
+        }
+        .imgcontent {
+            position: absolute;
+            width: inherit;
+            height: inherit;
+            z-index: 0;
+        }
+        .container{
+            display: flex;
+            flex-wrap: wrap;
+        }
+    </style>
+    <style>
+        .imgcontent img{
+            height: 600px;
+            width: 600px;
+            border: 2px solid black;
+            overflow: hidden;
+            align-items: center;
+            display: flex;
+            justify-content: center;
+    
+        }
+        .imgcontent img{
+            height: 100%;
+            transition: all .2s linear;
+        }
+        .box:hover img{
+            height: 110%;
+            width: 110%;
+        }
+    </style>
+</head>
+<body bgcolor="6A9C89">
+    <center><h2><a href="index.html" style="color:rgb(74, 97, 27);">Photos Ka Bazaar</a></h2></center>
+
+    <font>
+       <center> <h2> Students Photos</h2></center>
+    </font>
+   
+    <div class="container">
+        <div class="box">
+            <div class="overlay"></div>
+            <div class="imgcontent"><img src="Students/15-SM176084.jpg" alt="" width="600"></div>
+        </div>
+        <div class="box">
+            <div class="overlay"></div>
+            <div class="imgcontent"><img src="Students/20-SM743183.jpg" alt="" width="600"></div>
+        </div>
+        <div class="box">
+            <div class="overlay"></div>
+            <div class="imgcontent"><img src="Students/120-SM1095475.jpg" alt="" width="600"></div>
+        </div>
+        <div class="box">
+            <div class="overlay"></div>
+            <div class="imgcontent"><img src="Students/220-SM744603.jpg" alt="" width="600"></div>
+        </div>
+        <div class="box">
+            <div class="overlay"></div>
+            <div class="imgcontent"><img src="Students/220-SM786641.jpg" alt="" width="600"></div>
+        </div>
+        <div class="box">
+            <div class="overlay"></div>
+            <div class="imgcontent"><img src="Students/220-SM786657.jpg" alt="" width="600"></div>
+        </div>
+        <div class="box">
+            <div class="overlay"></div>
+            <div class="imgcontent"><img src="Students/220-SM839464.jpg" alt="" width="600"></div>
+        </div>
+        <div class="box">
+            <div class="overlay"></div>
+            <div class="imgcontent"><img src="Students/300-SM1072492.jpg" alt="" width="600"></div>
+        </div>
+        <div class="box">
+            <div class="overlay"></div>
+            <div class="imgcontent"><img src="Students/300-SM1072546.jpg" alt="" width="600"></div>
+        </div>
+        <div class="box">
+            <div class="overlay"></div>
+            <div class="imgcontent"><img src="Students/300-SM1074890.jpg" alt="" width="600"></div>
+        </div>
+        <div class="box">
+            <div class="overlay"></div>
+            <div class="imgcontent"><img src="Students/300-SM1074941.jpg" alt="" width="600"></div>
+        </div>
+        <div class="box">
+            <div class="overlay"></div>
+            <div class="imgcontent"><img src="Students/300-SM1077915.jpg" alt="" width="600"></div>
+        </div>
+        <div class="box">
+            <div class="overlay"></div>
+            <div class="imgcontent"><img src="Students/300-SM1076876.jpg" alt="" width="600"></div>
+        </div>
+        <div class="box">
+            <div class="overlay"></div>
+            <div class="imgcontent"><img src="Students/400-SM1086524.jpg" alt="" width="600"></div>
+        </div>
+        <div class="box">
+            <div class="overlay"></div>
+            <div class="imgcontent"><img src="Students/400-SM1086543.jpg" alt="" width="600"></div>
+        </div>
+        <div class="box">
+            <div class="overlay"></div>
+            <div class="imgcontent"><img src="Students/400-SM1095473.jpg" alt="" width="600"></div>
+        </div>
+    </div>   
+    <br><br> 
+    <button><a href="index.html">Go Home</a></button>
+    
+</body>
+</html>

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        center a{
+            text-decoration: none;
+        }
+    </style>
+    <style>
+        .box {
+            width: 600px;
+            height: 400px;
+            position: relative;
+            overflow: hidden;
+            border: 2px solid black;
+        }
+        
+        .box:hover .overlay{
+            background-color: rgba(0, 0, 0, 0.3);
+        }
+    
+        .overlay {
+            position: absolute;
+            width: inherit;
+            height: inherit;
+            z-index: 1;
+        }
+        .imgcontent {
+            position: absolute;
+            width: inherit;
+            height: inherit;
+            z-index: 0;
+        }
+        .container{
+            display: flex;
+            flex-wrap: wrap;
+        }
+    </style>
+    <style>
+        .imgcontent img{
+            height: 600px;
+            width: 600px;
+            border: 2px solid black;
+            overflow: hidden;
+            align-items: center;
+            display: flex;
+            justify-content: center;
+    
+        }
+        .imgcontent img{
+            height: 100%;
+            transition: all .2s linear;
+        }
+        .box:hover img{
+            height: 110%;
+            width: 110%;
+        }
+    </style>
+</head>
+<body bgcolor="6A9C89">
+    <center><h2><a href="index.html" style="color:rgb(74, 97, 27);">Photos Ka Bazaar</a></h2></center>
+
+    <font>
+       <center> <h2> Fastival Photos</h2></center>
+    </font>
+  
+    <div class="container">
+        <div class="box">
+            <div class="overlay"></div>
+            <div class="imgcontent"><img src="Fastival/1-SM1094074.jpg" alt="" width="600"></div>
+        </div>
+        <div class="box">
+            <div class="overlay"></div>
+            <div class="imgcontent"><img src="Fastival/5-SM1094401.jpg" alt="" width="600"></div>
+        </div>
+        <div class="box">
+            <div class="overlay"></div>
+            <div class="imgcontent"><img src="Fastival/8-SM1058460.jpg" alt="" width="600"></div>
+        </div>
+        <div class="box">
+            <div class="overlay"></div>
+            <div class="imgcontent"><img src="Fastival/17-SM949562.jpg" alt="" width="600"></div>
+        </div>
+        <div class="box">
+            <div class="overlay"></div>
+            <div class="imgcontent"><img src="Fastival/300-SM1020822.jpg" alt="" width="600"></div>
+        </div>
+        <div class="box">
+            <div class="overlay"></div>
+            <div class="imgcontent"><img src="Fastival/19-SM1086804.jpg" alt="" width="600"></div>
+        </div>
+        <div class="box">
+            <div class="overlay"></div>
+            <div class="imgcontent"><img src="Fastival/120-SM644940.jpg" alt="" width="600"></div>
+        </div>
+        <div class="box">
+            <div class="overlay"></div>
+            <div class="imgcontent"><img src="Fastival/220-SM461681.jpg" alt="" width="600"></div>
+        </div>
+        <div class="box">
+            <div class="overlay"></div>
+            <div class="imgcontent"><img src="Fastival/300-SM1020822.jpg" alt="" width="600"></div>
+        </div>
+        <div class="box">
+            <div class="overlay"></div>
+            <div class="imgcontent"><img src="Fastival/300-SM1053680.jpg" alt="" width="600"></div>
+        </div>
+        <div class="box">
+            <div class="overlay"></div>
+            <div class="imgcontent"><img src="Fastival/300-SM1058695.jpg" alt="" width="600"></div>
+        </div>
+        <div class="box">
+            <div class="overlay"></div>
+            <div class="imgcontent"><img src="Fastival/300-SM1077823.jpg" alt="" width="600"></div>
+        </div>
+        <div class="box">
+            <div class="overlay"></div>
+            <div class="imgcontent"><img src="Fastival/300-SM1089468.jpg" alt="" width="600"></div>
+        </div>
+        <div class="box">
+            <div class="overlay"></div>
+            <div class="imgcontent"><img src="Fastival/300-SM1094308.jpg" alt="" width="600"></div>
+        </div>
+        <div class="box">
+            <div class="overlay"></div>
+            <div class="imgcontent"><img src="Fastival/399-SM1087739.jpg" alt="" width="600"></div>
+        </div>
+
+    </div>  
+    <br><br>  
+    <button><a href="index.html">Go Home</a></button>
+    
+</body>
+</html>

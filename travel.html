@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        center a{
+            text-decoration: none;
+        }
+    </style>
+    <style>
+        .box {
+            width: 600px;
+            height: 400px;
+            position: relative;
+            overflow: hidden;
+            border: 2px solid black;
+        }
+        
+        .box:hover .overlay{
+            background-color: rgba(0, 0, 0, 0.3);
+        }
+    
+        .overlay {
+            position: absolute;
+            width: inherit;
+            height: inherit;
+            z-index: 1;
+        }
+        .imgcontent {
+            position: absolute;
+            width: inherit;
+            height: inherit;
+            z-index: 0;
+        }
+        .container{
+            display: flex;
+            flex-wrap: wrap;
+        }
+    </style>
+    <style>
+        .imgcontent img{
+            height: 600px;
+            width: 600px;
+            border: 2px solid black;
+            overflow: hidden;
+            align-items: center;
+            display: flex;
+            justify-content: center;
+    
+        }
+        .imgcontent img{
+            height: 100%;
+            transition: all .2s linear;
+        }
+        .box:hover img{
+            height: 110%;
+            width: 110%;
+        }
+    </style>
+</head>
+<body bgcolor="6A9C89">
+    <center><h2><a href="index.html" style="color:rgb(74, 97, 27);">Photos Ka Bazaar</a></h2></center>
+
+    <font>
+       <center> <h2> Travel Photos</h2></center>
+    </font>
+   
+    <div class="container">
+        <div class="box">
+            <div class="overlay"></div>
+            <div class="imgcontent"><img src="Travel/6-SM239533.jpg" alt="" width="600"></div>
+        </div>
+        <div class="box">
+            <div class="overlay"></div>
+            <div class="imgcontent"><img src="Travel/19-SM20944.jpg" alt="" width="600"></div>
+        </div>
+        <div class="box">
+            <div class="overlay"></div>
+            <div class="imgcontent"><img src="Travel/20-SM178227.jpg" alt="" width="600"></div>
+        </div>
+        <div class="box">
+            <div class="overlay"></div>
+            <div class="imgcontent"><img src="Travel/20-SM236241.jpg" alt="" width="600"></div>
+        </div>
+        <div class="box">
+            <div class="overlay"></div>
+            <div class="imgcontent"><img src="Travel/120-SM650320.jpg" alt="" width="600"></div>
+        </div>
+        <div class="box">
+            <div class="overlay"></div>
+            <div class="imgcontent"><img src="Travel/220-SM380514.jpg" alt="" width="600"></div>
+        </div>
+        <div class="box">
+            <div class="overlay"></div>
+            <div class="imgcontent"><img src="Travel/220-SM755373.jpg" alt="" width="600"></div>
+        </div>
+        <div class="box">
+            <div class="overlay"></div>
+            <div class="imgcontent"><img src="Travel/220-SM836812.jpg" alt="" width="600"></div>
+        </div>
+        <div class="box">
+            <div class="overlay"></div>
+            <div class="imgcontent"><img src="Travel/220-SM868490.jpg" alt="" width="600"></div>
+        </div>
+        <div class="box">
+            <div class="overlay"></div>
+            <div class="imgcontent"><img src="Travel/220-SM882469.jpg" alt="" width="600"></div>
+        </div>
+        <div class="box">
+            <div class="overlay"></div>
+            <div class="imgcontent"><img src="Travel/220-SM909509.jpg" alt="" width="600"></div>
+        </div>
+        <div class="box">
+            <div class="overlay"></div>
+            <div class="imgcontent"><img src="Travel/220-SM941468.jpg" alt="" width="600"></div>
+        </div>
+        <div class="box">
+            <div class="overlay"></div>
+            <div class="imgcontent"><img src="Travel/300-SM1085527.jpg" alt="" width="600"></div>
+        </div>
+        <div class="box">
+            <div class="overlay"></div>
+            <div class="imgcontent"><img src="Travel/300-ZM1024446.jpg" alt="" width="600"></div>
+        </div>
+    </div>    
+    <br><br>
+    <button><a href="index.html">Go Home</a></button>
+    
+</body>
+</html>

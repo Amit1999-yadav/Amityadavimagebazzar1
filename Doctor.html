@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        center a{
+            text-decoration: none;
+        }
+    </style>
+    <style>
+        .box {
+            width: 600px;
+            height: 400px;
+            position: relative;
+            overflow: hidden;
+            border: 2px solid black;
+        }
+        
+        .box:hover .overlay{
+            background-color: rgba(0, 0, 0, 0.3);
+        }
+    
+        .overlay {
+            position: absolute;
+            width: inherit;
+            height: inherit;
+            z-index: 1;
+        }
+        .imgcontent {
+            position: absolute;
+            width: inherit;
+            height: inherit;
+            z-index: 0;
+        }
+        .container{
+            display: flex;
+            flex-wrap: wrap;
+        }
+    </style>
+    <style>
+        .imgcontent img{
+            height: 600px;
+            width: 600px;
+            border: 2px solid black;
+            overflow: hidden;
+            align-items: center;
+            display: flex;
+            justify-content: center;
+    
+        }
+        .imgcontent img{
+            height: 100%;
+            transition: all .2s linear;
+        }
+        .box:hover img{
+            height: 110%;
+            width: 110%;
+        }
+    </style>
+</head>
+<body bgcolor="6A9C89">
+    <center><h2><a href="index.html" style="color:rgb(74, 97, 27);">Photos Ka Bazaar</a></h2></center>
+
+    <font>
+       <center> <h2> Doctor Photos</h2></center>
+    </font>
+    <!-- <center>
+        <a href="Doctor.html"><img src="Doctor/2-SM1085993.jpg" alt="" width="600" title="Doctor"></a>
+        <a href="Doctor.html"><img src="Doctor/16-TJ1089188.jpg" alt="" width="600" height="400" title="Doctor"></a>
+        <a href="Doctor.html"><img src="Doctor/19-SM1046082.jpg" alt="" width="600" title="Doctor"></a>
+        <a href="Doctor.html"><img src="Doctor/120-SM340551.jpg" alt="" width="600" title="Doctor"></a>
+        <a href="Doctor.html"><img src="Doctor/220-SM919109.jpg" alt="" width="600" title="Doctor"></a>
+        <a href="Doctor.html"><img src="Doctor/220-SM919147.jpg" alt="" width="600" title="Doctor"></a>
+        <a href="Doctor.html"><img src="Doctor/220-SM953168.jpg" alt="" width="600" title="Doctor"></a>
+        <a href="Doctor.html"><img src="Doctor/300-SM1064711.jpg" alt="" width="600" title="Doctor"></a>
+        <a href="Doctor.html"><img src="Doctor/300-SM1072028.jpg" alt="" width="600" title="Doctor"></a>
+        <a href="Doctor.html"><img src="Doctor/300-SM1072050.jpg" alt="" width="600" title="Doctor"></a>
+        <a href="Doctor.html"><img src="Doctor/300-SM1077109.jpg" alt="" width="600" title="Doctor"></a>
+        <a href="Doctor.html"><img src="Doctor/300-SM1077113.jpg" alt="" width="600" title="Doctor"></a>
+        <a href="Doctor.html"><img src="Doctor/300-SM1086010.jpg" alt="" width="600" title="Doctor"></a>
+        <a href="Doctor.html"><img src="Doctor/300-SM1094663.jpg" alt="" width="600" title="Doctor"></a>
+    </center> -->
+    <div class="container">
+        <div class="box">
+            <div class="overlay"></div>
+            <div class="imgcontent"><img src="Doctor/2-SM1085993.jpg" alt="" width="600"></div>
+        </div>
+        <div class="box">
+            <div class="overlay"></div>
+            <div class="imgcontent"><img src="Doctor/16-TJ1089188.jpg" alt="" width="600"></div>
+        </div>
+        <div class="box">
+            <div class="overlay"></div>
+            <div class="imgcontent"><img src="Doctor/19-SM1046082.jpg" alt="" width="600"></div>
+        </div>
+        <div class="box">
+            <div class="overlay"></div>
+            <div class="imgcontent"><img src="Doctor/120-SM340551.jpg" alt="" width="600"></div>
+        </div>
+        <div class="box">
+            <div class="overlay"></div>
+            <div class="imgcontent"><img src="Doctor/220-SM919109.jpg" alt="" width="600"></div>
+        </div>
+        <div class="box">
+            <div class="overlay"></div>
+            <div class="imgcontent"><img src="Doctor/220-SM919147.jpg" alt="" width="600"></div>
+        </div>
+        <div class="box">
+            <div class="overlay"></div>
+            <div class="imgcontent"><img src="Doctor/220-SM953168.jpg" alt="" width="600"></div>
+        </div>
+        <div class="box">
+            <div class="overlay"></div>
+            <div class="imgcontent"><img src="Doctor/300-SM1064711.jpg" alt="" width="600"></div>
+        </div>
+        <div class="box">
+            <div class="overlay"></div>
+            <div class="imgcontent"><img src="Doctor/300-SM1072028.jpg" alt="" width="600"></div>
+        </div>
+        <div class="box">
+            <div class="overlay"></div>
+            <div class="imgcontent"><img src="Doctor/300-SM1072050.jpg" alt="" width="600"></div>
+        </div>
+        <div class="box">
+            <div class="overlay"></div>
+            <div class="imgcontent"><img src="Doctor/300-SM1077109.jpg" alt="" width="600"></div>
+        </div>
+        <div class="box">
+            <div class="overlay"></div>
+            <div class="imgcontent"><img src="Doctor/300-SM1077113.jpg" alt="" width="600"></div>
+        </div>
+        <div class="box">
+            <div class="overlay"></div>
+            <div class="imgcontent"><img src="Doctor/300-SM1086010.jpg" alt="" width="600"></div>
+        </div>
+        <div class="box">
+            <div class="overlay"></div>
+            <div class="imgcontent"><img src="Doctor/300-SM1094663.jpg" alt="" width="600"></div>
+        </div>
+    </div>
+    <br><br>
+    <button><a href="index.html">Go Home</a></button>
+    
+</body>
+</html>
